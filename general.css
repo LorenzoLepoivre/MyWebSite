@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+li, p {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #447596;
+}
+
+figcaption {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+.icon {
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+.apparition {
+    transition: 1s;
+}
+
+.invisible {
+    transition: 0s;
+    opacity: 0;
+}
+
+.noDisplay {
+    display: none;
+}
+
+.yesDisplay {
+    display: block;
+}
+
+.darkmode--activated figcaption {
+    color: #fff;
+}
+
+.darkmode-toggle {
+    z-index: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    li, p {
+        font-size: 1rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .icon {
+        max-width: 1.4rem;
+        max-height: 1.4rem;
+        height: auto;
+        margin-right: 0.5rem;
+    }
+
+    #print {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .noDisplay {
+        display: block;
+    }
+
+    .yesDisplay {
+        display: none;
+    }
+
+    .invisible {
+        opacity: 1;
+    }
+}
+
+@media print {
+    li, p {
+        font-size: 1rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    #print {
+        display: none;
+    }
+
+    .noDisplay {
+        display: block;
+    }
+
+    .yesDisplay {
+        display: none;
+    }
+
+    .invisible {
+        opacity: 1;
+    }
+
+    .darkmode-layer, .darkmode-toggle {
+        z-index: -1000;
+    }
+
+    .icon {
+        max-width: 1.4rem;
+        max-height: 1.4rem;
+    }
+
+    a:visited {
+        color: rgb(0, 0, 0);
+    }
+}

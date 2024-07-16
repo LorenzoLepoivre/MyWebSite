@@ -1,0 +1,66 @@
+#right {
+    flex-grow: 1;
+    flex-basis: 60%;
+    margin-left: 1%;
+}
+
+#right section p {
+    max-width: 85%;
+}
+
+#right li {
+    margin-top: 5px;
+}
+
+#right h2 {
+    margin: 30px 0 -5px 0;
+}
+
+#window {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px 0 -20px 25px;
+}
+
+#board {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#board figure {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#board figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#board figure img {
+    width: 100%;
+    height: 90%;
+}
+
+.projet-link {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+@media print {
+    .projet-link {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+}
