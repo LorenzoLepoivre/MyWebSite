@@ -28,8 +28,8 @@
 #me img {
     border-radius: 50%;
     margin: 10px;
-    max-width: 13rem;
-    max-height: 13rem;
+    max-width: 10rem;
+    max-height: 10rem;
     height: auto;
 }
 
@@ -49,4 +49,8 @@
 
 #icons{
     margin-top: -2%;
+}
+
+@media print {
+    
 }

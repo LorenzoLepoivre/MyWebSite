@@ -5,7 +5,7 @@
 }
 
 #right section p {
-    max-width: 85%;
+    max-width: 90%;
 }
 
 #right li {
@@ -62,5 +62,25 @@
     .projet-link {
         text-decoration: none;
         color: rgb(0, 0, 0);
+    }
+
+    #right h1 {
+        margin: 0 0 0 0;
+    }
+
+    #right h2 {
+        margin: 15px 0 5px 0;
+    }
+
+    #right p, #right ul {
+        margin: 0 0 0 0;
+    }
+
+    #right section p {
+        max-width: 100%;
+    }
+
+    #right {
+        margin-left: 2%;
     }
 }
