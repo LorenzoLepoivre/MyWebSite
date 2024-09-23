@@ -1,6 +1,6 @@
 #left {
     flex-grow: 1;
-    flex-basis: 40%;
+    flex-basis: 45%;
     background-color: #dff2ff;
 }
 
@@ -52,5 +52,26 @@
 }
 
 @media print {
-    
+    #left {
+        flex-grow: 1;
+        flex-basis: 40%;
+    }
+
+    .imageBeforeText {
+        margin: -10px 0 0 0;
+        padding: 0;
+    }
+
+    #me img {
+        border-radius: 50%;
+        margin: 10px;
+        max-width:  8rem;
+        max-height: 8rem;
+        height: auto;
+    }
+
+    #left > .has_border {
+        border-top: 1px solid ;
+    }
+
 }
