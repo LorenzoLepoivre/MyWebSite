@@ -59,7 +59,7 @@ a:hover {
 
 .invisible {
     transition: 0s;
-    opacity: 0;
+    opacity: 1;
 }
 
 .noDisplay {
